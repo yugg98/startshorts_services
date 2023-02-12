@@ -1,0 +1,121 @@
+body{
+ scroll-behavior: smooth;
+}
+.wraps{
+    width: 100%;
+    display: flex;
+    min-height: 400px;
+}
+.wraps .left{
+    width: 30%;
+    height: 100%;
+ 
+}
+.wraps .left li{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    margin-left: 1rem;
+    font-weight: bolder;
+ 
+}
+.wraps .right{
+    width: 70%;
+   
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+
+  
+}
+.wraps .right .card{
+    width: 20rem;
+    height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1rem;
+    flex-direction: column;
+    margin: 1rem;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.wraps .right .card:hover{
+    box-shadow: none;
+}
+.wraps .right .card h4{
+    font-size: 1rem;
+}
+.wraps .right p{
+    text-align: center;
+    font-size: 1rem;
+    
+}
+.wraps .right img{
+    border-radius: 4px;
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+    margin: 1rem 0;
+}
+.wraps .box{
+    width: 60%;
+    height: 3rem;
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 0.8rem 0;
+    align-items: center;
+    border-radius: 5px;
+}
+.wraps .box:hover{
+    background-color: #fafafa;
+}
+.wraps .active{
+    background-color: #fafafa;
+    width: 60%;
+    height: 3rem;
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 0.8rem 0;
+    align-items: center;
+    border-radius: 5px;
+}
+.wraps .right .box2{
+    width: 3rem;
+    height: 3rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media(max-width:900px){
+    .wraps{
+        flex-direction: column;
+    }
+    .wraps .left{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        overflow: auto;
+    
+      
+    }
+    .wraps .left::-webkit-scrollbar{
+        display: none;
+    }
+    .wraps .left li{
+        background-color: #000;
+        color: #fff;
+        padding: 0.5rem;
+        border-radius: 0.2rem;
+        font-weight: lighter;
+    }
+    .wraps .right{
+        width: 100%;
+    }
+}
