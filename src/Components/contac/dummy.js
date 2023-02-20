@@ -160,5 +160,23 @@ export const dummy = [
   
     ],
 },
-
+{
+    id:6,
+    title:"Hiring",
+    product:[
+        {
+            _id:1,
+            image:img10,
+            title:"Fulltime Hiring",
+            description:"In our full-time hiring services we are going to provide you our selceted candidates that will ease your work of interview"
+        },
+        {
+            _id:2,
+            image:img9,
+            title:"Hire A Certified freelancer",
+            description:"Hire a certified freelacer from startshorts that  will ease your work of selection of good candidates"
+        }
+  
+    ],
+},
 ];
