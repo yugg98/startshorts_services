@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import Transition from "../utils/Transition";
-import m1 from "../images/m1.png";
+import m1 from "../../assets/basic.jpeg";
+import m2 from "../../assets/premium.jpeg";
 import FeaturesBg from "../images/features-bg.png";
 import FeaturesElement from "../images/features-element.png";
 import finan from "../images/financials.png";
@@ -70,7 +71,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Market Start 25% off
+                      Branding Package
                     </div>
                     <div className="text-gray-600">
                       This packages are basically for startups who are just
@@ -104,10 +105,10 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Develop first
+                      Eccomerce Website development package
                     </div>
                     <div className="text-gray-600">
-                      Develop your web and app with the world class experienced
+                      Develop your eccomerce web and app with the world class experienced
                       developers{" "}
                     </div>
                   </div>
@@ -204,23 +205,13 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
                     <img
                       className="md:max-w-none mx-auto rounded"
-                      src={FeaturesBg}
+                      src={m2}
                       width="500"
                       height="462"
                       alt="Features bg"
                     />
-                    <img
-                      className="md:max-w-none absolute w-full left-0 transform animate-float"
-                      src={FeaturesElement}
-                      width="500"
-                      height="44"
-                      alt="Element"
-                      style={{ top: "30%" }}
-                    />
-                  </div>
                 </Transition>
                 {/* Item 3 */}
                 <Transition

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/logo.jfif";
+import logo from "../../favicon.jpeg";
 function Header() {
   const [top, setTop] = useState(true);
 
