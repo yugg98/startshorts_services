@@ -105,7 +105,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Eccomerce Website development package
+                    E-commerce Website development package
                     </div>
                     <div className="text-gray-600">
                       Develop your eccomerce web and app with the world class experienced

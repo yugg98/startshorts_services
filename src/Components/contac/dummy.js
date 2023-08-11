@@ -29,7 +29,7 @@ export const dummy = [
     {
         _id:3,
         image:img1,
-    title:"Lead gernation Consultancy",
+    title:"Lead gerenation Consultancy",
     description:"Most of the startups stuck in this lead gernation and sales only so with our expert lead gernation and sales team you can learn the best way to sales and marketing"
     },
     {
